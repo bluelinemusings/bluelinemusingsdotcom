@@ -49,6 +49,8 @@ tracking:
     gtag('js', new Date());
     gtag('config', 'G-JC9SZ3C7K8');
 
+csp_extra: "script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com;"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
