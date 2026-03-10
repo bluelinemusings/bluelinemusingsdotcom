@@ -37,7 +37,7 @@ header_pages:
   - index.md
   - about.md
   - links.md
-listen_for_clients_preferred_style: true
+listen_for_clients_preferred_style: truescript-src 'self'; script-src 'self' https://www.googletagmanager.com 'unsafe-inline'; connect-src 'self' https://www.google-analytics.com https://stats.g.doubleclick.net;"
 
 
 tracking:
@@ -49,7 +49,7 @@ tracking:
     gtag('js', new Date());
     gtag('config', 'G-JC9SZ3C7K8');
 
-csp_extra: "script-src 'self' https://www.googletagmanager.com 'unsafe-inline'; connect-src 'self' https://www.google-analytics.com https://stats.g.doubleclick.net;"
+csp_extra: "https://www.googletagmanager.com 'unsafe-inline'; connect-src 'self' https://www.google-analytics.com https://stats.g.doubleclick.net;""
 
 # Exclude from processing.
 # The following items will not be processed, by default.
