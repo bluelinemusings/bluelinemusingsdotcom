@@ -16,7 +16,6 @@ font-src 'self' https://fonts.gstatic.com data:;
 media-src 'self';
 object-src 'none';
 child-src 'self';
-script-src 'self';
 {%- endcapture -%}
 {%- capture csp_final -%}{{ csp | strip | replace: '\n', ' ' }} {%- if site.csp_extra %} {{ site.csp_extra }}{%- endif -%}{%- endcapture -%}
 <meta http-equiv="Content-Security-Policy" content="{{ csp_final | strip }}" />
