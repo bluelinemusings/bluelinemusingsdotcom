@@ -37,6 +37,7 @@ header_pages:
   - index.md
   - about.md
   - links.md
+  - contact.md
 listen_for_clients_preferred_style: true
 
 
